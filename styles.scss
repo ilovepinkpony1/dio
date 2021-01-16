@@ -1,0 +1,388 @@
+$transition: 0.4s all ease-in-out;
+$particleSize: 20vmin;
+$animationDuration: 6s;
+$amount: 20;
+
+@mixin button($bcolor, $url, $x1, $y1, $bor, $col) {
+  background: $bcolor;
+  -webkit-mask: url($url);
+  mask: url($url);
+  -webkit-mask-size: $x1 $y1;
+  mask-size: $x1 $y1;
+  border: $bor;
+  color: $col;
+}
+
+body {
+  display: flex;
+  // justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  padding: 24px 0;
+}
+
+.container {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #fcf8e3;
+  height: fit-content;
+  width: 776px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  // background-color: black;
+  @media (max-width: 650px) {
+    height: 250px;
+  }
+}
+
+.backgroundWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    pointer-events: none;
+  }
+}
+
+.contentBackground {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: calc(100% - 10px);
+  height: 87%;
+  background-color: #fcf8e4;
+  overflow: hidden;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.contentWrapper {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: calc(100% - 19px);
+  height: 87%;
+  @media (max-width: 767px) {
+    top: 4px;
+    left: 4px;
+    width: calc(100% - 8px);
+    height: calc(87% + 1px);
+  }
+}
+
+.firstStepWrapper {
+  width: 100%;
+  transition: 0.4s all ease;
+
+  h4 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    width: fit-content;
+    margin: 24px auto;
+    padding: 8px 24px;
+    color: #1d1d1d;
+    @media (max-width: 650px) {
+      font-size: 18px;
+      margin: 16px auto;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12px;
+  padding-right: 0;
+}
+
+.stepButton {
+  position: relative;
+  width: calc(33% - 24px);
+  height: 60px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  border: 1px solid #000;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  border-radius: 8px;
+
+  @media (max-width: 650px) {
+    width: calc(50% - 24px);
+    height: 50px;
+    margin-bottom: 16px;
+  }
+
+  button {
+    width: 101%;
+    height: 100%;
+    font-weight: 300;
+    font-size: 18px;
+
+    @include button(
+      #000,
+      "https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png",
+      7100%,
+      100%,
+      none,
+      #fff
+    );
+    cursor: pointer;
+    -webkit-animation: buttonAnimationSecond 0.7s steps(70) forwards;
+    animation: buttonAnimationSecond 0.7s steps(70) forwards;
+
+    &:hover {
+      -webkit-animation: buttonAnimation 0.7s steps(70) forwards;
+      animation: buttonAnimation 0.7s steps(70) forwards;
+    }
+  }
+}
+
+.mas {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  width: 101%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  position: absolute;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+// bg-animation
+
+.contentBackground span {
+  width: $particleSize;
+  height: $particleSize;
+  border-radius: $particleSize;
+  backface-visibility: hidden;
+  position: absolute;
+  animation-name: move;
+  animation-duration: $animationDuration;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  $colors: (#e7b53a, #e45a84, #ffacac);
+  @for $i from 1 through $amount {
+    &:nth-child(#{$i}) {
+      color: nth($colors, random(length($colors)));
+      top: random(100) * 1%;
+      left: random(100) * 1%;
+      animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
+      animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
+      transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
+      $blurRadius: (random() + 0.5) * $particleSize * 0.5;
+      $x: if(random() > 0.5, -1, 1);
+      box-shadow: ($particleSize * 2 * $x) 0 $blurRadius currentColor;
+    }
+  }
+}
+
+.logoWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.4s all ease;
+
+  img {
+    width: 60%;
+    object-fit: scale-down;
+    animation-name: logoAnimation;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+}
+
+.resultWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.4s all ease;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.fadeOut {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.fadeOutLogo {
+  opacity: 0;
+}
+
+.invisible {
+  display: none;
+}
+
+.fadeIn {
+  animation-name: logoAnimation;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.descriptionWrapper {
+  text-align: center;
+  font-size: 16px;
+  color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s all ease;
+  .resultHeader {
+    font-size: 24px;
+  }
+
+  .resultText {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+}
+
+.moreButton {
+  color: #fff;
+  background-color: #000;
+  border-radius: 2px;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  will-change: transform, box-shadow;
+  margin: 16px 0;
+
+  &:hover {
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+  }
+}
+
+.fullHeight {
+  animation-name: toFullHeight;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes logoAnimation {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+@keyframes toFullHeight {
+  from {
+    transform: translateY(-110%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes buttonAnimation {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@keyframes buttonAnimation {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+
+@-webkit-keyframes buttonAnimationSecond {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+@keyframes buttonAnimationSecond {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
