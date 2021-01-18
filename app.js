@@ -55,17 +55,21 @@ window.addEventListener('load', () => {
       const mainText = createElement('p', 'resultText')
       const subText = createElement('p', 'resultText')
       const moreButton = createElement('button', 'moreButton')
+      const link = createElement('a', 'resultLink')
 
+      link.setAttribute('href', item.link)
+      
       wrapper.setAttribute('id', 'descriptionWrapper')
 
       header.innerHTML = `${convertTypeToString(item.type)} «${item.name}»`
       mainText.innerHTML = `${item.text}`
       subText.innerHTML = `${item.subText}`
       moreButton.innerHTML = 'Спробувати ще'
+      link.innerHTML = 'Трейлер'
 
       moreButton.addEventListener('click', onMoreButtonClicked)
 
-      const innerElements = [header, mainText, subText, moreButton]
+      const innerElements = [header, link, mainText, subText, moreButton]
 
       innerElements.forEach(el => {
         wrapper.appendChild(el)

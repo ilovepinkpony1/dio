@@ -278,12 +278,27 @@ body {
   transition: 0.5s all ease;
   .resultHeader {
     font-size: 24px;
+    margin-bottom: 16px;
   }
 
   .resultText {
     font-size: 16px;
     margin: 0;
     margin-bottom: 16px;
+    text-align: justify;
+    padding: 0 8px;
+  }
+
+  .resultLink {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    text-decoration: underline;
+    margin-bottom: 24px;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
