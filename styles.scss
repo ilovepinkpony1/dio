@@ -309,6 +309,9 @@ body {
   animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
+  @media (max-width: 990px) {
+    animation-name: toFullHeightMobile;
+  }
 }
 
 @keyframes logoAnimation {
@@ -332,10 +335,23 @@ body {
 @keyframes toFullHeight {
   from {
     transform: translateY(-110%);
+    opacity: 0;
   }
 
   to {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes toFullHeightMobile {
+  from {
+    transform: translateY(-60%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
