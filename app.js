@@ -84,10 +84,11 @@ window.addEventListener('load', () => {
     addIdToElement(wrapper, 'appendedTextWrapper')
 
     link.setAttribute('href', item.link)
+    link.setAttribute('target', '_blank')
 
     const innerElements = [header, link, mainText, subText]
 
-    header.innerHTML = `${convertTypeToString(item.type)} «${item.name}»`
+    header.innerHTML = `${convertTypeToString(item.type)} ${item.name}`
     mainText.innerHTML = `${item.text}`
     subText.innerHTML = `${item.subText}`
     link.innerHTML = 'Трейлер'
