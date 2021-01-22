@@ -262,13 +262,19 @@ body {
 
 .fadeIn {
   animation-name: logoAnimation;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
 
 .descriptionWrapper {
+  button {
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
   text-align: center;
   font-size: 16px;
   color: #1d1d1d;
@@ -287,6 +293,47 @@ body {
     margin-bottom: 16px;
     text-align: justify;
     padding: 0 8px;
+    a {
+      color: #1d1d1d;
+      &:hover {
+        color: #1d1d1d;
+      }
+    }
+    &:last-child {
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
+      background-color: #e7b53a;
+      margin-top: 16px;
+    }
+  }
+
+  .newButton {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 0;
+    margin: 8px 0;
+    position: relative;
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      content: "";
+      width: 100%;
+      height: 2px;
+      background-color: #1d1d1d;
+      transform: scaleX(0);
+      transition: 0.3s transform ease;
+    }
+
+    &:hover {
+      &::before {
+        transform: scaleX(1);
+      }
+    }
   }
 
   .resultLink {
@@ -296,6 +343,7 @@ body {
     text-decoration: underline;
     margin-bottom: 24px;
     cursor: pointer;
+    display: inline-block;
     &:hover {
       text-decoration: none;
     }
@@ -320,6 +368,10 @@ body {
     box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.5);
     transform: scale(1.01);
   }
+
+  &:active {
+    transform: scale(0.95);
+  }
 }
 
 .fullHeight {
@@ -328,8 +380,30 @@ body {
   animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-  @media (max-width: 990px) {
-    animation-name: toFullHeightMobile;
+}
+
+.appendedTextWrapper {
+  transition: 1s all ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fadeOutText {
+  animation-name: fadeOutTextAnimation;
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeOutTextAnimation {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
   }
 }
 
@@ -352,17 +426,6 @@ body {
 }
 
 @keyframes toFullHeight {
-  from {
-    transform: translateY(-110%);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes toFullHeightMobile {
   from {
     transform: translateY(-60%);
     opacity: 0;
