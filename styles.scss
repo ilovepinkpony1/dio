@@ -294,9 +294,9 @@ body {
     text-align: justify;
     padding: 0 8px;
     a {
-      color: #1d1d1d;
+      color: #1d1d1d !important;
       &:hover {
-        color: #1d1d1d;
+        color: #1d1d1d !important;
       }
     }
     &:last-child {
