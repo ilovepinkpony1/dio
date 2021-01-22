@@ -59,7 +59,7 @@ window.addEventListener('load', () => {
       addIdToElement(wrapper, 'descriptionWrapper')
 
       moreButton.innerHTML = 'Спробувати ще'
-      newCategoryButton.innerHTML = 'Нова категорія'
+      newCategoryButton.innerHTML = 'Інша категорія'
 
       moreButton.addEventListener('click', onMoreButtonClicked)
       newCategoryButton.addEventListener('click', onNewCategoryClicked)
