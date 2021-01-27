@@ -10,7 +10,7 @@ export const Data = [
 
     text: `Кримінально-драматичний серіал про звичайну американську сім’ю, що потрапляє у світ зброї, відмивання грошей та інших атрибутів криміналу. Критики особливо похвалили «Озарк» за його тон, режисуру та акторську гру. Серіал отримав тридцять дві номінації на прайм-тайм премію «Еммі», з яких виграв у трьох.`,
 
-    subText: `А щоб пірнути в атмосферу Міссурі та відчути власну присутність на озері Озарк, дивіться серіал на телевізорах Sony <a href="https://www.sony.ua/electronics/televizory/xh80-series#sound" target="_blank">з системою звуку, що занурює</a>.`,
+    subText: `А щоб пірнути в атмосферу Міссурі та відчути власну присутність на озері Озарк, дивіться серіал на телевізорах Sony <a href=" https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_sound" target="_blank">з системою звуку, що занурює</a>.`,
   },
 
   {
@@ -24,7 +24,7 @@ export const Data = [
 
     text: `Постапокаліптичний серіал з оскароносною Дженніфер Коннеллі, що отримала популярність ще у «Темному Лицарі», «Іграх розуму» та «Реквіємі за мрією». Дія серіалу відбувається через сім років після того, як світ став сніговою пусткою внаслідок глобального льодовикового періоду. Люди, які вижили, рухаються на поїзді, оснащеному вічним двигуном. Поїзд складається із 1001 вагону, що розділені за соціальним статусом. У серіалі порушуються проблеми класової боротьби, соціальної несправедливості та принципів виживання.`,
 
-    subText: `А краще за все ландшафти засніженої постапокаліптичної Землі видно на дисплеях телевізорів Sony — <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">новітній процесор X1  «відмалює» кожну сніжинку та відтінок снігу</a>.`,
+    subText: `А більш детально ландшафти засніженої постапокаліптичної Землі видно на дисплеях телевізорів Sony — <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">завдяки потужному процесору Х1 всі елементи відтворюватимуться максимально чітко та яскраво</a>.`,
   },
 
   {
@@ -53,7 +53,7 @@ export const Data = [
 
     text: `Той самий серіал, що підняв продажі шахів у чотири рази до рекордного за дев’ять років рівня! А головну роль у ньому зіграла Аня Тейлор-Джой, яка також відома за фільмами «Скло», «Спліт», «Емма» та серіалом «Гострі картузи». Консультантами творців фільму стали колишній чемпіон світу з шахів Гаррі Каспаров та тренер з шахів Брюс Пандольфіні.`,
 
-    subText: `Пірнути у атмосферу школи шахів реальніше <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">з телевізорами Sony — системи звуку та зображення виводять ефект присутності на новий рівень</a>.`,
+    subText: `Пірнути у атмосферу школи шахів реальніше <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">з телевізорами Sony — гармонія звуку та зображення яких виводять ефект присутності на новий рівень</a>.`,
   },
 
   {
@@ -65,9 +65,9 @@ export const Data = [
 
     image: "./images/series/Stranger-Things-2-review-image.jpg",
 
-    text: `Серіал про підлітків, що тримає біля екранів навіть найстарших поціновувачів. Містечко Хокінс, потойбічні сили і, звичайно, злі організації, що проводять небезпечні дослідження. Серіал отримав високі оцінки телекритиків, які відзначили атмосферність, акторську гру і відсилання до жанрових фільмів 1980-х років.`,
+    text: `Серіал про підлітків, що тримає біля екранів навіть найстарших поціновувачів. Містечко Хокінс, потойбічні сили і, звичайно, злі організації, що проводять небезпечні дослідження. Серіал отримав високі оцінки телекритиків, які відзначили атмосферність, акторську гру і посилання до жанрових фільмів 1980-х років.`,
 
-    subText: `Розглянути кожен краєвид можна на екранах телевізорів Sony — їхні дисплеї <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">з технологією TRILUMINOS гарантують вам чітке та яскраве зображення</a>.`,
+    subText: `Роздивитись детально кожен краєвид можна на екранах телевізорів Sony — їхні дисплеї <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">з технологією TRILUMINOS забезпечать вам чітке та яскраве зображення</a>.`,
   },
 
   {
@@ -109,7 +109,7 @@ export const Data = [
 
     text: `Новий проєкт Netflix, що розповідає історію сім’ї Бріджертонів за часів епохи Регентства в Англії. Мета сімейства — видати заміж старшу дочку. Але всупереч перевагам дівчини, наречені не поспішають вставати в чергу. Також справі заважає бульварна газетка з плітками, в якій обсмоктується  кожен роман. `,
 
-    subText: `А зручно дивитися серіали можна завдяки <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">розумному Android TV, що в телевізорах Sony</a>.`,
+    subText: `А зручно дивитися серіали можна завдяки <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">розумному Android TV Sony</a>.`,
   },
 
   {
@@ -123,7 +123,7 @@ export const Data = [
 
     text: `Серіал про маленьку відьму, що базується на однойменній комікс-серії від Archie Horror. Нещодавно вийшов четвертий сезон серіалу. Критики хвалять акторську гру Кірнан Шипки, акторський склад і сюжет.`,
 
-    subText: `Роздивлятися химерні світи краще з <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">реалістичним зображенням від телевізорів Sony</a>.`,
+    subText: `Роздивлятися химерні світи цікавіше з <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">реалістичним зображенням на телевізорах Sony</a>.`,
   },
 
   {
@@ -137,7 +137,7 @@ export const Data = [
 
     text: `Уявіть, як єгиптянин, народжений у сім’ї сирійців, стає секретним агентом Ізраїлю, під прикриттям їде в Сирію, стає там полковником служби безпеки Сирії та третім кандидатом на пост президента. Це — реальна історія та знятий за нею серіал «Шпигун». У головній ролі — Саша Барон Коен, відомий за фільмом «Борат». `,
 
-    subText: `Вмикайте телевізори Sony та мандруйте зі шпигуном, <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">адже реалістичні зображення та звук дозволяють це</a>.`,
+    subText: `Вмикайте телевізори Sony та мандруйте зі шпигуном, <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">адже реалістичні зображення та звук дозволяють повністю зануритися в події на екрані</a>.`,
   },
 
   {
@@ -151,7 +151,7 @@ export const Data = [
 
     text: `Американський комедійно-драматичний серіал про молоду американку Емілі, що переїздить в Париж, працює в digital-агенції та веде власний Instagram-блог. Критики кажуть: «Хоча зображення Франції є тривіальним кліше, "Емілі в Парижі" — це романтична фантастика у кращому вигляді, ефектно одягнена і наповнена чарівним виконанням».`,
 
-    subText: `Францію у 4K краще дивитися на телевізорах від Sony — <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">з контрастністю та надзвичайною насиченістю кольорів</a>.`,
+    subText: `Францію у 4K більш захопливо дивитися на телевізорах від Sony — <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">з контрастністю та надзвичайною насиченістю кольорів</a>.`,
   },
 
   {
@@ -165,7 +165,7 @@ export const Data = [
 
     text: `Жіночий реслінг з камео справжніх зірок. Архівні кадри містять ролики навіть з Халком Хоганом. Головна акторка Елісон Брі отримала номінацію на «Золотий глобус» за роль Рут Вайлдер.`,
 
-    subText: `Відчути дух реслінгу можна завдяки об’ємному звуку та <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">реалістичному зображенню телевізорів Sony</a>, що переносять глядача на самісінький ринг.`,
+    subText: `Відчути дух реслінгу можна завдяки об’ємному звуку та <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">реалістичному зображенню телевізорів Sony</a>, що ніби переносять глядача на самісінький ринг.`,
   },
 
   {
@@ -193,7 +193,7 @@ export const Data = [
 
     text: `Частина кіновсесвіту «Зоряних війн» із Грогу — маленькою істотою тієї ж раси, що й магістр Йода з оригінальної серії. У центрі сюжету — пригоди малюка і самотнього стрілка-мандалорця, представника колись могутньої раси благородних воїнів, тепер вимушеного животіти серед покидьків суспільства на дальніх межах Галактики.`,
 
-    subText: `За космічними мандрами краще спостерігати з 4K екранів Sony. <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">Телевізори Sony</a> враховують особливості людського зору та забезпечують неповторний ефект присутності.`,
+    subText: `За космічними мандрами більш захопливо спостерігати з 4K телевізорами Sony. Вони забезпечують неповторний ефект присутності завдяки надзвичайно реалістичному зображенню й <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">сучасними звуковими технологіями</a>`,
   },
 
   {
@@ -207,7 +207,7 @@ export const Data = [
 
     text: `Як щодо супергеройського серіалу, але без DC і Marvel? «Академія Амбрелла» розповідає історію цілої сім’ї супергероїв, що намагаються розкрити таємницю смерті їхнього батька. Головна героїня — Ваня Харгрівз — переконана, що у неї немає надприродних здібностей. Насправді ж вона наймогутніша і найнебезпечніша зі своїх братів і сестер.`,
 
-    subText: `А щоб не упустити жодного супергеройського «муву», <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">вмикай телевізор Sony та спостерігай з чітким зображенням</a> та багатовимірним звуком.`,
+    subText: `А щоб не упустити жодного супергеройського «муву», <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">вмикай телевізор Sony та спостерігай з чітким високоякісним зображенням</a>.`,
   },
 
   {
@@ -235,7 +235,7 @@ export const Data = [
 
     text: `Ви потрапили на класику. Запасайтеся кавою та проводьте час разом із героями в їхній улюбленій кав’ярні. Згадайте про любовні перипетії Рейчел та Роса, спроби побудувати кар'єру актора Джої та неперевершені жарти Чендлера. `,
 
-    subText: `А якщо хочете дивитися у 4K, вмикайте телевізор Sony, що завдяки <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">потужному процесору самостійно покращить якість  навіть 27-річного серіалу</a>.`,
+    subText: `А якщо хочете дивитися у 4K, вмикайте телевізор Sony, що завдяки <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">потужному процесору Х1 удосконалить якість  навіть 27-річного серіалу</a>.`,
   },
 
   {
@@ -263,7 +263,7 @@ export const Data = [
 
     text: `«Ти» може здатися простим драматичним серіалом, але це не так. Його незвично доповнює трилер, у якому головний герой виявляється зовсім не таким, як на перших кадрах. Серіал розповідає історію Джо Голдберга, менеджера книжкового магазину в Нью-Йорку, який закохується в письменницю-початківця Ґвіневру Бек. Він «годує» свою токсичну одержимість, використовуючи соціальні мережі та інші технології для слідкування за її місцеперебуванням.`,
 
-    subText: `Серіали та кіно зручно дивитися на телевізорах Sony — з підтримкою <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">Android TV</a>, простим керуванням і розумними системами зображення та звуку.`,
+    subText: `Серіали та кіно зручно дивитися на телевізорах Sony — з підтримкою <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">Android TV</a>, простим керуванням і цілковитою гармонією зображення та звуку.`,
   },
 
   {
@@ -277,7 +277,7 @@ export const Data = [
 
     text: `Слова тут зайві. Чуі, R2-D2, С-3PO та зоряні мандрівники чекають по той бік екрану. Офіційна дата створення проєкту — 25 травня 1977 року — є датою виходу на широкий екран кінофільму «Зоряні війни» (нині це «Епізод IV. Нова Надія»). Однак перший твір за всесвітом — це книга-новелізація, яка з'явилася ще в 1976 році.`,
 
-    subText: `А <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">телевізори Sony</a> самі покращать контент до 4K завдяки функції 4K X-Reality™ PRO. Жоден світловий меч не залишиться піксельним.`,
+    subText: `А <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">телевізори Sony</a> покращать якість відтворення до 4K завдяки функції 4K X-Reality™ PRO. Жоден світловий меч не залишиться піксельним.`,
   },
 
   {
@@ -291,7 +291,7 @@ export const Data = [
 
     text: `Український фільм Валентина Васяновича, головні ролі в якому зіграли непрофесійні актори — ветерани АТО, волонтери, солдати ЗСУ. Про життя Донбасу у 2025 році після майбутньої перемоги України. Фільм переміг на Венеційському кінофестивалі у програмі «Горизонти».`,
 
-    subText: `Ще краще уявити 2025 рік та посилити відчуття присутності можна <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">з телевізорами Sony</a> завдяки об’ємному звуку та яскравим насиченим кольорам. `,
+    subText: `Ще чіткіше уявити 2025 рік та посилити відчуття присутності можна <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">з телевізорами Sony</a> завдяки об’ємному звуку та яскравим насиченим кольорам. `,
   },
 
   {
@@ -305,7 +305,7 @@ export const Data = [
 
     text: `Один із небагатьох фільмів, що випустили у кінопрокат у 2020 році. Для тих, хто засумував за Галь Гадот та DC Comics. Стрічка є продовженням фільму 2017 року — «Диво-жінка» і восьмою частиною світів DC. `,
 
-    subText: `Ну і де дивитися фільми класичних кіностудій з бюджетом в $200 млн, як не на телевізорах Sony? <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">З технологією TRILUMINOS Display</a> ви не пропустите жодного долара, вкладеного у спецефекти.`,
+    subText: `Ну і де дивитися фільми класичних кіностудій з бюджетом в $200 млн, як не на телевізорах Sony. <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">З технологією TRILUMINOS Display</a> ви не пропустите жодного долара, вкладеного у спецефекти.`,
   },
 
   {
@@ -347,7 +347,7 @@ export const Data = [
 
     text: `Джордж Клуні виступив одночасно режисером і виконавцем головної ролі у фільмі. Августин Лофтхаус — амбітний вчений, який працює над пошуком придатних для життя планет, на яких людство могло б розширитися. Але вже незабаром опиняється у постапокаліптичній Арктиці, де щосили намагається встановити контакт з космічним кораблем.`,
 
-    subText: `Кадри з постапокаліптичною Землею краще всього дивитися на дисплеях <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">з техологією TRILUMINOS телевізорів Sony</a> — з реалістичною картинкою та об’ємним звуком.`,
+    subText: `Кадри з постапокаліптичною Землею краще всього дивитися на дисплеях <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_picture" target="_blank">з технологією TRILUMINOS телевізорів Sony</a> — з реалістичною картинкою та об’ємним звуком.`,
   },
 
   {
@@ -375,7 +375,7 @@ export const Data = [
 
     text: `Не треба багато слів — Роберт Паттінсон, Джоел Еджертон та Тімоті Шаламе в одній стрічці. Ще й дочка Джонні Деппа — Лілі-Роуз Депп — у ролі французької принцеси. Тим не менш, стрічка отримала змішані відгуки та середній рейтинг.`,
 
-    subText: `А спостерігати за подіями часів короля Генріха V краще <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">з великих 4K екранів телевізорів Sony</a>. `,
+    subText: `А спостерігати за подіями часів короля Генріха V рекомендуємо <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">з великих 4K екранів телевізорів Sony</a>. `,
   },
 
   {
@@ -403,7 +403,7 @@ export const Data = [
 
     text: `Кінобіографія Елтона Джона від самого початку до вершин творчості музиканта. У фільмі піднімають такі факти його життя, як гомосексуальність і боротьба з залежністю. Проєкт розробляли 19 років, а його прем’єра відбулася на Каннському кінофестивалі.`,
 
-    subText: `Дивитися таке кіно і без крутого багатовимірного звуку — це прикра помилка. Тому <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">обирайте телевізори Sony</a> з чітким та високоякісним звуком і насолоджуйтеся. `,
+    subText: `Дивитися таке кіно і без крутого багатовимірного звуку — це прикра помилка. Тому <a href=" https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_sound"_blank">обирайте телевізори Sony</a> з чітким та високоякісним звуком і насолоджуйтеся. `,
   },
 
   {
@@ -445,7 +445,7 @@ export const Data = [
 
     text: `Документальний фільм про той самий перший та єдиний політ людини на Місяць у 1969 році, коли команда під керівництвом Ніла Армстронга здійснила посадку на Місяці. У роботі від Netflix є ексклюзивні кадри та інтерв’ю, що більше розкривають події.`,
 
-    subText: `Дивитися за стартом та прилуненням американських астронавтів краще з екранів <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">телевізорів Sony — їхні технології автоматично покращують якість навіть архівних футажів</a>.`,
+    subText: `Дивитися за стартом та прилуненням американських астронавтів цікавіше з екранів <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">телевізорів Sony — їхні технології автоматично покращують якість навіть архівних футажів</a>.`,
   },
 
   {
@@ -491,7 +491,7 @@ export const Data = [
   },
 
   {
-    name: "«Форд проти Ферарі» «Ford v Ferrari»",
+    name: "«Форд проти Ферарі» «Ford vs Ferrari»",
 
     link: "https://youtu.be/zyYgDtY2AMY",
 
@@ -529,7 +529,7 @@ export const Data = [
 
     text: `Нелегкий для перегляду фільм про війну, що увійшов у 100 кращих фільмів за версією IMDb. Численні нагороди та Сем Мендес у режисерському кріслі. На рахунку стрічки — сім нагород BAFTA, три «Оскари» та два «Золотих глобуси».`,
 
-    subText: `Навіть такі, здавалося б, фільми, створені суто під кінотеатр, можна дивитися вдома. Найкраще — з <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">4K телевізорами Sony, що враховують особливості людського зору та слуху, аби забезпечити ефект присутності</a>.`,
+    subText: `Навіть такі, здавалося б, фільми, створені суто під кінотеатр, можна дивитися вдома. Найкраще — з <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">4K телевізорами Sony, що забезпечують максимальний ефект занурення в події на екрані</a>.`,
   },
 
   {
@@ -571,7 +571,7 @@ export const Data = [
 
     text: `Цікавий підхід до вивчення сім’ї Холмс — розповідь про сестру Шерлока Енолу. Головну роль зіграла Міллі Боббі Браун, а роль матері Холмсів — Гелена Бонем Картер. Шерлока ж зіграв Генрі Кавілл — він же Супермен, він же Геральт з серіалу «Відьмак».`,
 
-    subText: `123 хвилини детективу краще за все дивитися на телевізорах Sony <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">зі зручним керуванням завдяки Android TV</a>.`,
+    subText: `123 хвилини детективу комфортніше за все дивитися на телевізорах Sony <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">зі зручним керуванням завдяки Android TV</a>.`,
   },
 
   {
@@ -599,7 +599,7 @@ export const Data = [
 
     text: `Уявіть, як комік Дункан Трасселл записує подкасти з акторами, співаками і навіть людьми, яким помилково винесли смертний вирок. А потім ці подкасти супроводжує психоделічним віжуалом. У такому випадку нерідко треба обирати — слухати чи спостерігати за тим, що відбувається на екрані.`,
 
-    subText: `Годі уявляти — гайда дивитись! А кожен <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">відтінок цього шедевру краще роздивлятися на екранах телевізорів Sony</a>. `,
+    subText: `Годі уявляти — гайда дивитись! А кожен <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">відтінок цього шедевру цікавіше роздивлятися на екранах телевізорів Sony</a>. `,
   },
 
   {
@@ -642,7 +642,7 @@ export const Data = [
 
     text: `Джо Роган пройшов шлях від журналіста та коментатора UFC до стендап-коміка. Тепер він записує власний подкаст з гостями на кшталт Ілона Маска, Майка Тайсона та Ніла Деграсса Тайсона. Навесні 2020-го Джо підписав контракт зі Spotify про надання ексклюзивних прав на його подкаст, чим підняв акції Spotify на 11%.`,
 
-    subText: `<a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">Вмикай телевізор Sony з Android TV</a> і дивись улюблені подкасти без зайвих рухів.`,
+    subText: `<a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">Вмикай телевізор Sony на базі Android TV</a> та користуйся голосовим пошуком для того, щоб знайти потрібний подкаст.`,
   },
 
   {
@@ -671,7 +671,7 @@ export const Data = [
 
     text: `«The Grand Tour» (з ведучими з «Top Gear») — це британська програма про автівки, у яку «залипають» навіть ті, кому автомобілі не цікаві. У 2013 році ведучі навіть приїжджали знімати епізоди в Україні — тоді вони навіть лишилися на ночівлю у Миколаєві.`,
 
-    subText: `Пригоди команди краще дивитися на <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">телевізорах Sony</a> — так ви не пропустите жодного пейзажу та жодної харизматичної посмішки дідусів.`,
+    subText: `Пригоди команди більш захопливо дивитися на <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">телевізорах Sony</a> — так ви не пропустите жодного пейзажу та жодної харизматичної посмішки дідусів.`,
   },
 
   {
@@ -683,9 +683,9 @@ export const Data = [
 
     image: "./images/shows/pimp-my-ride.jpg",
 
-    text: `Саме час повернути Екзібіта на ваші екрани! Цікаво, що «Pimp My Ride» перекладається скоріше як «Засутенер мою тачку» — тобто зроби її навмисне дуже яскравою та такою, щоб привертала увагу. `,
+    text: `Саме час повернути Екзібіта на ваші екрани! Повернути те саме шоу зі сміливим тюнінгом, блискучими дисками та шокованими власниками автівок.`,
 
-    subText: `Якби шоу все ще виходило — в кожну тачку ставили б <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">телевізори Sony</a>. `,
+    subText: `Навіть в команді Екзібіта знають, що найголовніше — це у всіх сенсах цього слова чіткий телевізор. А такі є у Sony — <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">з голосовим пошуком і гармонією звуку та зображення</a>. `,
   },
 
   {
@@ -699,7 +699,7 @@ export const Data = [
 
     text: `Шоу з двома геніями, які тестували те, що моторошно тестувати вдома. Ці хлопці 13 років виконували потаємні бажання-експерименти дітей та деяких дорослих — підірвали автомобілі, манекени, бетономішалки та буквально все, що потрапляло під руку.`,
 
-    subText: `Такі старі, але круті шоу потрібно дивитися на <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">телевізорах Sony — вони автоматично покращують зображення до 4K та дарують новий досвід знайомої передачі</a>.`,
+    subText: `Такі старі, але круті шоу потрібно дивитися на <a href="https://www.sony.ua/electronics/tv/t/tv?sort=product_ratings&type=4k&type=new-hdr" target="_blank">телевізорах Sony — вони автоматично покращують зображення до 4K та дарують новий подих вже знайомим передачам</a>.`,
   },
 
   {
@@ -727,6 +727,6 @@ export const Data = [
 
     text: `Володар «Греммі» Tyler, The Creator дізнається, як працюють речі, що його цікавлять, — від стоп-моушену та картингу до кросівок та космосу. Запуск шоу пройшов у 2017 році на Viceland. На жаль, останні епізоди вийшли рік тому, але ви все ще можете дізнатися, як роблять меблі, що таке флоатинг та як приготувати смачний сніданок.`,
 
-    subText: `Дізнаватися нове про світ краще з телевізорами Sony — з багатовимірним звуком, чіткою картинкою та <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">зручним керуванням з Android TV</a>.`,
+    subText: `Дізнаватися нове про світ цікавіше з телевізорами Sony — з багатовимірним звуком, чіткою картинкою та <a href="https://www.sony.ua/electronics/bravia/dodatkovo?cpint=SG_CATEGORY_SEC-TOUT-CAT-TV-CAT-EN_GL-2015-12-M09-RELATEDTV-TOUT04-CELEBRATEEVERY-NEW#bravia_oofm_usability" target="_blank">зручним керуванням з Android TV</a>.`,
   },
 ];
